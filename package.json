@@ -1,0 +1,22 @@
+{
+  "name": "test-rest-apis",
+  "version": "1.0.0",
+  "description": "Mocha Supertest Chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --file ./test/env/setup.js --file ./test/specs/UserController-tests.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai-json-pattern": "^1.1.0",
+    "chance": "^1.1.12",
+    "colors": "^1.4.0",
+    "mocha": "^11.1.0",
+    "supertest": "^7.1.0"
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "dotenv": "^16.4.7"
+  }
+}
