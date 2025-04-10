@@ -4,6 +4,7 @@ node_modules/
 # Misc
 *.tgz
 package-lock.json
+*test-results.xml
 
 #ENV
 #.env.*
