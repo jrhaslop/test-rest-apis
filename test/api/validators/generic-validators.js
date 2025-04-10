@@ -3,13 +3,13 @@ const checkStatusCodeTemplate = function (response, validateCode) {
         when expecting a status code of ${validateCode} ${response.request.url}`);
 };
 
-const userSchema = {
+const userSchema = `{
     "id": Number,
     "name": String,
     "email": String,
     "gender": String,
     "status": String
-}
+}`
 
 module.exports = {
 
