@@ -6,10 +6,10 @@ module.exports = {
   'color': true,
   'bail': true,
   'spec': './test/specs/**/*.js',
-  'reporter': 'mocha-junit-reporter',
+  'reporter': 'spec',
   'reporterOptions': {
     'mochaFile': './report.xml',
-    'toConsole': false,
+    'toConsole': true,
     'suiteTitleSeparatedBy': '.',
     'properties': {
       'project': 'Gorest Integration API'

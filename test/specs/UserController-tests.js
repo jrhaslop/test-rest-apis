@@ -24,7 +24,7 @@ it('Get user', async function () {
 
 it('Delete user', async function () {
   const response = await userControllerRequests.deleteUser(userId);
-  await userControllerValidators.verifyDeleteUser(response);
+  userControllerValidators.verifyDeleteUser(response);
 
   process.on('exit', () => {
     console.log(`\nUser ${userId} was successfully deleted\n`);
